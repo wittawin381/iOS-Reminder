@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7B688C41-67C5-4934-B8F4-093D216594E5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "514F4BCA-EACF-4EF3-8C29-1CD2A5DA4219"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/View/AddReminderViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "AddReminderViewController"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A15CF061-DBB2-4C73-A7A9-0291BDFCA2C7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/ViewModel/AddReminderModalVM/DetailsModalVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "DetailsModalVM"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A15CF061-DBB2-4C73-A7A9-0291BDFCA2C7 - 796241fab8b79491"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminder.DetailsModalVM.__allocating_init() -&gt; Reminder.DetailsModalVM"
+                  moduleName = "Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wittawinmuangnoi/Desktop/Reminder/Reminder/ViewModel/AddReminderModalVM/DetailsModalVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  uuid = "A15CF061-DBB2-4C73-A7A9-0291BDFCA2C7 - 78e64b5e573ab544"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminder.DetailsModalVM.init() -&gt; Reminder.DetailsModalVM"
+                  moduleName = "Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wittawinmuangnoi/Desktop/Reminder/Reminder/ViewModel/AddReminderModalVM/DetailsModalVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "435CC040-B0DF-44F4-8CA7-DFB41403B380"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminder/AddReminderModal/view/AddReminderViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

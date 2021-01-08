@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Image" representedClassName="Image" syncable="YES" codeGenerationType="class">
+        <attribute name="img" optional="YES" attributeType="Binary"/>
+        <relationship name="belongTo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Reminders" inverseName="contain" inverseEntity="Reminders"/>
+    </entity>
+    <entity name="List" representedClassName="List" syncable="YES" codeGenerationType="class">
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="contain" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Reminders" inverseName="belongTo" inverseEntity="Reminders"/>
+    </entity>
+    <entity name="Reminders" representedClassName="Reminders" syncable="YES" codeGenerationType="class">
+        <attribute name="complete" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="flag" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <relationship name="belongTo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="List" inverseName="contain" inverseEntity="List"/>
+        <relationship name="contain" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Image" inverseName="belongTo" inverseEntity="Image"/>
+    </entity>
+    <elements>
+        <element name="Image" positionX="-36" positionY="36" width="128" height="73"/>
+        <element name="List" positionX="-0.53515625" positionY="-83.5390625" width="128" height="59"/>
+        <element name="Reminders" positionX="334.51171875" positionY="-61.30859375" width="128" height="179"/>
+    </elements>
 </model>
